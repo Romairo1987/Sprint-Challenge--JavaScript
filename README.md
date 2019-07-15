@@ -29,14 +29,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+<!-- forEach allows us to loop over every element in the array and mutate the elements but
+map allows us to return new array with new values and it's faster than forEach. -->
 
 2. What is the difference between a function and a method?
+<!-- function is simply a small progam wrote to perform a specifiec task and a method is just a block of code in the browser allows us to use it and return a statement. -->
 
 3. What is closure?
+<!-- its a function nested into a nother function and the inner function has access to all the outer function. -->
 
 4. Describe the four rules of the 'this' keyword.
+ <!-- Global binding: "This" refers to the global window.
+ Implicit Binding: "This" refers to whatever keys and thier values on the object.
+ New Binding: "This" refers to whatever assigned to the New keyword.
+ Explicit Binding: "This" refers when call or apply is used. -->
 
 5. Why do we need super() in an extended class?
+<!-- to copy the parent object into it. -->
 
 ## Project Set up
 
